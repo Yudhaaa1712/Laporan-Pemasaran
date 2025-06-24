@@ -54,7 +54,7 @@ function hasPageAccess($required_role = 'any') {
 
 <nav class="bg-amber-800 text-white p-4">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <a href="/muha/index.php" class="text-xl font-bold mb-2 md:mb-0">Freedom Cafe</a>
+        <a href="/muha/index.php" class="text-xl font-bold mb-2 md:mb-0">Freedom Coffee</a>
         <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
             <!-- Navigation Links dengan Role-Based Access -->
             <div class="flex items-center space-x-4">
@@ -62,6 +62,8 @@ function hasPageAccess($required_role = 'any') {
                 <a href="/muha/pages/product/index.php" class="hover:underline">Produk</a>
                 <a href="/muha/pages/category/index.php" class="hover:underline">Kategori</a>
                 <a href="/muha/pages/sales/index.php" class="hover:underline">Penjualan</a>
+                <a href="/muha/pages/aboutus/index.pphp" class="hover:underline">Tentang Kami</a>
+            
                 
                 <?php if (hasPageAccess('Supervisor')) { ?>
                     <!-- Menu ini hanya untuk Admin dan Supervisor -->
@@ -104,6 +106,6 @@ function hasPageAccess($required_role = 'any') {
 <header class="bg-amber-600 text-white py-8">
     <div class="container mx-auto px-4 text-center">
         <h1 class="text-3xl font-bold mb-2">Sistem Informasi Pemasaran Produk</h1>
-        <p class="text-xl">Freedom Cofe</p>
+        <p class="text-xl">Freedom Coffee</p>
     </div>
 </header>

@@ -79,7 +79,7 @@ include '../../includes/navbar.php';
                 </svg>
                 Ekspor Laporan Per Kategori
             </a>
-            <a href="export_excel.php?type=date&start_date=<?php echo $start_date; ?>&end_date=<?php echo $end_date; ?>" 
+            <a href="export_excel.php?type=date&end_date=<?php echo $end_date; ?>&end_date=<?php echo $start_date; ?>" 
                class="bg-green-600 text-white px-3 py-2 rounded text-sm flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m-9 6h14a2 2 0 002-2V5a2 2 0 00-2-2H6a2 2 0 00-2 2v14a2 2 0 002 2z" />
